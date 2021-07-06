@@ -1,5 +1,5 @@
 clear; clc;
-a=0; b=3; %INTERVALO
+a=3; b=9; %INTERVALO
 n_rec=5; %numeros de regtangulos
 delta_x =(b-a)/n_rec; %delta
 x=zeros(1,n_rec+1); %valores de x= n+1
@@ -35,7 +35,7 @@ Area=[Area_izq,Area_medio,Area_der];
 double(Area)
 
 function f=funcion(x)
-f=@(x) 2*x^2;
+f=@(x) x^4+8;
 
 clc,clear
 syms x;
