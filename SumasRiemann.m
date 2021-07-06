@@ -1,6 +1,6 @@
 clear; clc;
 a=3; b=9; %INTERVALO
-n_rec=5; %numeros de regtangulos
+n_rec=6; %numeros de regtangulos
 delta_x =(b-a)/n_rec; %delta
 x=zeros(1,n_rec+1); %valores de x= n+1
 %almacenamiento de los valores de X
